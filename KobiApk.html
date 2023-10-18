@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>    
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4285F4;
+  padding: 20px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 10px;
+  
+}
+
+.card p {
+  color: #777;
+}
+
+button {
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #3367D6;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/ Responsividade /
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  #searchInput {
+    width: 100%;
+    
+  }
+}
+
+@media screen and (max-height: 1024px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  #searchInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Estilo para a barra de pesquisa */
+#searchInput {
+  padding: 10px 30px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 200px;
+}
+
+/* Estilo para a imagem ao lado do input */
+#search-icon {
+  position: absolute;
+  right: 10px;
+  top: -50%;
+  width: 20px;
+  height: 20px;
+  background-image: url('./IMG/t.png');
+
+}
+
+
+#message {
+  text-align: center; / Centraliza o texto /
+  font-family: Arial, sans-serif; / Define a fonte para Arial ou uma fonte sans-serif /
+  margin: 0;
+}
+#image {
+ align-items: center;
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 35px;
+}
+
+#t {
+    height: 35px;
+  width: 35px; 
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KobiAPK</h1>
+     <input id="searchInput" type="text" placeholder="Procurar..." onkeyup="searchApps()">
+
+  </header>
+  <div class="container">
+    <div class="card">
+      <img src="./IMG/bot.png" id="t">
+      <h2>BOT AV(APRENDIZ VIRTUAL)</h2>
+      <p>BOT AV, é um Aprendiz virtual, é um bot onde você tera que treina-lo para que ele fique mais inteligente, a cada conversa ele ficara mais inteligente, e fornecera informações cada vez mais precisa.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/zsn6b3r6dd00vc70mm2v5/Aprendiz-Virtual.apk?rlkey=j535116ma7eosjdhiw2tabm88&dl=0'">Install</button>
+    </div>
+    <div class="card">
+      <img src="./IMG/N.png" id="t">
+      <h2>BLOCO DE NOTAS</h2>
+      <p>Gerencie seu dia-a-dia com mais facilidade usando nosso bloco de nota, o bc, onde ficara mas facil gerencia atividades ou ate mesmo guarda informações preciosa, da forma mais segura possivel.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/eqruv18cw0mhhp1zhw18c/Bloco-de-Notas.apk?rlkey=t1529iahc92l5s64pvlsznig9&dl=0'">Install</button>
+    </div>
+    <div class="card">
+      <img src="./IMG/I.png" id="t">
+      <h2>Infinity Space</h2>
+      <p>Infinity space é um gamer muito divertido e cheio de aventura, onde você tera que sobreviver o maximo que conseguir, contra misseis que serão lançado contra você.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/1c8j0tri3tld2caun47vv/Infinit_Space.apk?rlkey=on0w3r1wlurj6f9smpf7pgkdl&dl=0'">Install</button>
+      </div>
+      
+      <div class="container">
+    <div class="card">
+      <img src="./IMG/P.png" id="t">
+      <h2>Inform IP</h2>
+      <p>Inform ip é um aplicativo bem interessante e curioso, onde sua função nada mais é que mostra seu ip, e diversas outras funcoes bem legais, como ceps e localizações de ip.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/5j2ppoh0hlx9b8z8mxvoq/InformIP.apk?rlkey=1skftz5si1b4wmq5661reh7ww&dl=0'">Install</button>
+    </div>
+    <div class="card">
+      <img src="./IMG/M.png" id="t">
+      <h2>Minhas Tarefas</h2>
+      <p>Compartilhe, gerencie, modifique, guarde e crie, com O app Minhas Tarefas  o Cl, você agora pode gerencia tarefas do dia-a-dia, como listas de compras, guarda informações e dentre outras variadas opções.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/eijhoxgd3ezupcq7uvlrb/MINHAS-TAREFAS.apk?rlkey=0f9e7wxptmbw9gp3h8052krv8&dl=0'">Install</button>
+    </div>
+    <div class="card">
+      <img src="./IMG/J.png" id="t">
+      <h2>The Jump Gamer</h2>
+      <p>The Jump Gamer(O jogo de pulo) é um divertido jogo de plataforma 2d, onde você tera que conseguir alcança o ultimo nivel apenas pulando de plataforma em plataforma, enfrentando desafios e aventuras incríveis, a cada nivel alcançado.</p>
+      <button onclick="window.location.href = 'https://www.dropbox.com/scl/fi/kobtcj26apemmzbpb68om/The-Jumping-Game.apk?rlkey=ro5fswkl9zd9lnbbvvzlt1hz4&dl=0'">Install</button>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div id="message">
+      
+</div>
+ <div id="image">
+  <img src="./IMG/t.png" />
+</div>
+</body>
+<script>
+    function searchApps() {
+      // Obtenha o valor da barra de pesquisa
+      var input = document.getElementById("searchInput");
+      var filter = input.value.toUpperCase();
+
+      // Obtenha todos os cards de aplicativos
+      var cards = document.getElementsByClassName("card");
+
+      // Faça um loop em todos os cards e exiba apenas aqueles que correspondem à pesquisa
+      for (var i = 0; i < cards.length; i++) {
+        var title = cards[i].getElementsByTagName("h2")[0].innerHTML.toUpperCase();
+
+        // Verifique se o título do aplicativo contém o valor da pesquisa
+        if (title.includes(filter)) {
+          // Exiba o card do aplicativo
+          cards[i].style.display = "";
+        } else {
+          // Oculte o card do aplicativo
+          cards[i].style.display = "none";
+          
+
+document.getElementById("image").src = "./IMG/t.png"
+
+document.getElementById("message").innerHTML = "Sem Mais Resultados" + "<br>"
+            }
+      }
+    }
+  </script>
+</html>
